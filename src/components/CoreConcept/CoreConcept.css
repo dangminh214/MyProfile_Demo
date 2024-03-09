@@ -1,0 +1,39 @@
+.concept_img {
+  width: 280px;
+  height: 200px;
+  margin: 10px;
+}
+
+#test_list_core_concept {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.coreconcept_list_element {
+  border: 1px solid black;
+  margin: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.coreconcept_list_element h3 {
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin: 10px;
+}
+.coreconcept_list_element p {
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.coreconcept_list_element:hover {
+  background-color: yellow;
+}

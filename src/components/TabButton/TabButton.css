@@ -1,0 +1,6 @@
+.tab_button {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

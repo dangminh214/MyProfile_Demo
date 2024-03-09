@@ -1,0 +1,25 @@
+.profile {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 1000px; /* Set width */
+  margin: 0 auto; /* Center horizontally */
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+#profile_image {
+  width: 300px;
+  height: 350px;
+  display: absolute;
+  margin: 10px
+}
+
+#title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile:hover {
+  background-color: yellow;
+}
