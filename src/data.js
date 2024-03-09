@@ -31,3 +31,54 @@ export const core_concept = [
     image: htv_image
   }
 ]
+
+export const EXAMPLES = {
+  Button1: {
+    title: 'Meine Bildung',
+    description:
+      'Fachbereich Informatik an der Hochschule Darmstadt',
+    code: `
+function Welcome() {
+  return <h1>Hello, World!</h1>;
+}`,
+  },
+  Button2: {
+    title: 'Programmiersprachen',
+    description:
+      'C++/Java/Pyton/Javascript/HTML/CSS mit Node.js, React.js, OpenCV2, Numpy',
+    code: `
+function Welcome(props) {
+  return <h1>Hello, {props.name}</h1>;
+}`,
+  },
+  Button3: {
+    title: 'Meine Hobbys',
+    description:
+      'Programmieren, studieren sowie lernen, Film sehen, Billard spielen, Frenden unterhalten',
+    code: `
+function Counter() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  function handleClick() {
+    setIsVisible(true);
+  }
+
+  return (
+    <div>
+      <button onClick={handleClick}>Show Details</button>
+      {isVisible && <p>Amazing details!</p>}
+    </div>
+  );
+}`,
+  },
+  Button4: {
+    title: 'Meine Erfahrung',
+    description:
+      'Ich habe über FrontEnd und Datenbank an der HTV Gmbh (ein Teil von TÜV Gruppe) gearbeitet, da benutzte ich Javascript mit JQuerry und SQL',
+    code: `
+<div>
+  <h1>Welcome {userName}</h1>
+  <p>Time to learn React!</p>
+</div>`,
+  },
+}

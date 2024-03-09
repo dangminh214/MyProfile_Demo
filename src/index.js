@@ -5,7 +5,7 @@ import * as app from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <div id = "main_content">
+  <div>
     <app.App />
   </div>
 );

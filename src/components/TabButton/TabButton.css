@@ -2,5 +2,11 @@
   list-style: none;
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 10px;
+}
+
+button {
+  width: 150px; /* Adjust width as needed */
+  height: 50px; /* Adjust height as needed */
+  font-size: 14px; /* Adjust font size as needed */
 }
