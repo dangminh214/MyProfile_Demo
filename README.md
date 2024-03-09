@@ -78,7 +78,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Add buttons, press button to show the content and start using useState to handle events
 ![image](https://github.com/dangminh214/MyProfile_Demo/assets/51837721/fad28ca4-a3cb-46a9-980d-d012f1e8e478)
 ![image](https://github.com/dangminh214/MyProfile_Demo/assets/51837721/c06d9f96-adc8-4db9-bc28-24efec13da79)
-![image](https://github.com/dangminh214/MyProfile_Demo/assets/51837721/032b2f94-457a-44d6-addb-1981d43b0e1a)
+![image](https://github.com/dangminh214/MyProfile_Demo/assets/51837721/9f0388fc-af59-4eb4-b17a-836c5d73e587)
+
 
 
 
