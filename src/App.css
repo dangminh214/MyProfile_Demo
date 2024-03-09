@@ -3,6 +3,14 @@
   text-align: center;
 }
 
+.profile {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 1000px; /* Set width */
+  margin: 0 auto; /* Center horizontally */
+}
+
 #profile_image {
   width: 450px;
   height: 500px;
@@ -11,6 +19,10 @@
 #title {
   text-align: center;
   margin-top: 20px;
+}
+
+.profile:hover {
+  background-color: yellow;
 }
 
 .concept_img {
@@ -36,26 +48,3 @@ li:hover {
   background-color: yellow;
 }
 
-.profile {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.profile-picture {
-  width: 150px;
-  height: 150px; 
-}
-
-.profile-info {
-  width: 500px;
-}
-
-.profile-info h2 {
-  margin: 0;
-  font-size: 1.5rem; /* Example font size */
-}
-
-.profile-info p {
-  margin: 5px 0;
-}

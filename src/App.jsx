@@ -9,6 +9,7 @@ import {core_concept} from './data.js';
 const reactDescription = ['gutaussehend', 'bereit zu lernen' , 'Neu Idee', 'Viel Energie', 'Voller Inspiration für die Arbeit'];
 
 let lastRandomNumber = -1;
+
 function getRandomInt (max) {
   let randomNumber;
   do {
@@ -16,6 +17,7 @@ function getRandomInt (max) {
   }
   while (randomNumber === lastRandomNumber);
   lastRandomNumber = randomNumber;
+  console.log(lastRandomNumber)
   return randomNumber;
 }
 
@@ -39,15 +41,15 @@ export function Profile() {
   };
 
   return (
-      <div className="profile">
-      <img src={profilePic} alt="Profile" id="profile_image" />
-      <div className="profile-info">
-        <h2>{profileInfo.name}</h2>
-        <p>Age: {profileInfo.alter}</p>
-        <p>Location: {profileInfo.ort}</p>
-        <p>Bio: {profileInfo.bio}</p>
-      </div>
-    </div>
+      <section className="profile">
+        <img src={profilePic} alt="Profile" id="profile_image" />
+        <div className="profile-info">
+          <h2>{profileInfo.name}</h2>
+          <p>Age: {profileInfo.alter}</p>
+          <p>Location: {profileInfo.ort}</p>
+          <p>Bio: {profileInfo.bio}</p>
+        </div>
+      </section>
     );
 }
 
