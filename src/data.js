@@ -16,7 +16,7 @@ export const core_concept = [
     image: componentImg2
   },
   {
-    title: "Studieren in Germany",
+    title: "Studieren in Deutschland",
     description: "Ab 19 Jahre alt studiere ich in Deutschland (nach 3 Jahren habe ich Deutsch gelernt)",
     image: myselfImageAtGermany
   },

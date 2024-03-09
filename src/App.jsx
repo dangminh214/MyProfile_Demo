@@ -50,10 +50,26 @@ export function App() {
           </ul>
         </section>
         <menu>
-          <TabButton onSelect = {() => handleSelect("Button1")}>Meine Bildung</TabButton>
-          <TabButton onSelect = {() => handleSelect("Button2")}>Programmiersprachen</TabButton> 
-          <TabButton onSelect = {() => handleSelect("Button3")}>Meine Hobbys</TabButton> 
-          <TabButton onSelect = {() => handleSelect("Button4")}>Meine Erfahrung</TabButton> 
+          <TabButton 
+            isSelected = {selectedTopic === 'Button1'} 
+            onSelect = {() => handleSelect("Button1")}>
+              Meine Bildung
+          </TabButton>
+          <TabButton 
+            isSelected = {selectedTopic === 'Button2'} 
+            onSelect = {() => handleSelect("Button2")}>
+              Programmiersprachen
+          </TabButton> 
+          <TabButton 
+            isSelected = {selectedTopic === 'Button3'} 
+            onSelect = {() => handleSelect("Button3")}>
+              Meine Hobbys
+          </TabButton> 
+          <TabButton 
+            isSelected = {selectedTopic === 'Button4'} 
+            onSelect = {() => handleSelect("Button4")}>
+              Meine Erfahrung
+          </TabButton> 
         </menu>
         {tabContent}
       </div>
