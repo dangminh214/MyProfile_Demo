@@ -70,11 +70,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 =======
 # MyProfile_Demo
-This is my profile using React.js to create, this is a demo version so of course it will lack of information
+## This is my profile using React.js to create, this is a demo version so of course it will lack of information
 ![image](https://github.com/dangminh214/MyProfile_Demo/assets/51837721/a472b46b-748a-45e9-b795-fb5f97c3526a)
-This title will be changed after everytime you refresh the page: 
+## This title will be changed after everytime you refresh the page: 
 ![image](https://github.com/dangminh214/MyProfile_Demo/assets/51837721/64142e02-bb3e-48e3-bee0-a98d5c3d5073)
 ![image](https://github.com/dangminh214/MyProfile_Demo/assets/51837721/35c1ac31-77cf-43b6-8e7a-02f973eeacdc)
+## Add buttons, press button to show the content and start using useState to handle events
+![image](https://github.com/dangminh214/MyProfile_Demo/assets/51837721/fad28ca4-a3cb-46a9-980d-d012f1e8e478)
+![image](https://github.com/dangminh214/MyProfile_Demo/assets/51837721/c06d9f96-adc8-4db9-bc28-24efec13da79)
+![image](https://github.com/dangminh214/MyProfile_Demo/assets/51837721/032b2f94-457a-44d6-addb-1981d43b0e1a)
+
+
+
 
 The contents are some steps in my life
 
