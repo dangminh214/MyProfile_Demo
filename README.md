@@ -71,4 +71,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 =======
 # MyProfile_Demo
 This is my profile using React.js to create, this is a demo version so of course it will lack of information
+![image](https://github.com/dangminh214/MyProfile_Demo/assets/51837721/a472b46b-748a-45e9-b795-fb5f97c3526a)
+This title will be changed after everytime you refresh the page: 
+![image](https://github.com/dangminh214/MyProfile_Demo/assets/51837721/64142e02-bb3e-48e3-bee0-a98d5c3d5073)
+The contents are some steps in my life
 >>>>>>> 3f36b6c7fa265a2ee60ac2f2f9d6a4a31b0f2994
+
