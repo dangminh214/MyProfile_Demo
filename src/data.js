@@ -4,7 +4,7 @@ import myselfImageAtGermany from './assets/meAtGermany.jpg';
 import pizzaShopWebEWA from './assets/pizzaShopWebEWA.jpg';
 import htv_image from './assets/htvgmbh.jpg';
 
-export const core_concept = [
+export const CORE_CONCEPTS = [
   {
     title: "Wow... Grundschule",
     description: "Ich habe Schachspiel viel gelernt und einen großeen Wettbewerb teilgenommen",
@@ -47,8 +47,9 @@ function Welcome() {
     description:
       'C++/Java/Pyton/Javascript/HTML/CSS mit Node.js, React.js, OpenCV2, Numpy',
     code: `
-function Welcome(props) {
-  return <h1>Hello, {props.name}</h1>;
+function Programmieren(props) {
+  let programmiersprachen = ['C++', 'Python', 'Java', 'Javascript', 'HTML', 'React.js', 'Node.js]
+  return programmiersprachen.push('OpenCV2');
 }`,
   },
   Button3: {
