@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { EXAMPLES } from '../../data.js';
+import Section from './Section.jsx'
 import './TabButton.css'
 
 import TabButton from './TabButton.jsx';
@@ -23,30 +24,30 @@ export default function Examples() {
         ) 
       }
   return (
-    <section>
+    <Section title="Some more details about me" id = "title" className = "">
       <menu>
         <TabButton 
           isSelected = {selectedTopic === 'Button1'} 
-          onSelect = {() => handleSelect("Button1")}>
+          onClick = {() => handleSelect("Button1")}>
             Meine Bildung
         </TabButton>
         <TabButton 
           isSelected = {selectedTopic === 'Button2'} 
-          onSelect = {() => handleSelect("Button2")}>
+          onClick = {() => handleSelect("Button2")}>
             Programmiersprachen
         </TabButton> 
         <TabButton 
           isSelected = {selectedTopic === 'Button3'} 
-          onSelect = {() => handleSelect("Button3")}>
+          onClick = {() => handleSelect("Button3")}>
             Meine Hobbys
         </TabButton> 
         <TabButton 
           isSelected = {selectedTopic === 'Button4'} 
-          onSelect = {() => handleSelect("Button4")}>
+          onClick = {() => handleSelect("Button4")}>
             Meine Erfahrung
         </TabButton> 
       </menu>
       {tabContent}
-    </section>  
+    </Section>  
   );
 }
