@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { EXAMPLES } from '../../data.js';
 import Section from './Section.jsx'
+import Tabs from './Tabs.jsx'
 import './TabButton.css'
 
 import TabButton from './TabButton.jsx';
@@ -25,28 +26,33 @@ export default function Examples() {
       }
   return (
     <Section title="Some more details about me" id = "title" className = "">
-      <menu>
-        <TabButton 
-          isSelected = {selectedTopic === 'Button1'} 
-          onClick = {() => handleSelect("Button1")}>
-            Meine Bildung
-        </TabButton>
-        <TabButton 
-          isSelected = {selectedTopic === 'Button2'} 
-          onClick = {() => handleSelect("Button2")}>
-            Programmiersprachen
-        </TabButton> 
-        <TabButton 
-          isSelected = {selectedTopic === 'Button3'} 
-          onClick = {() => handleSelect("Button3")}>
-            Meine Hobbys
-        </TabButton> 
-        <TabButton 
-          isSelected = {selectedTopic === 'Button4'} 
-          onClick = {() => handleSelect("Button4")}>
-            Meine Erfahrung
-        </TabButton> 
-      </menu>
+      <Tabs
+        buttonsContainer = "menu"
+        buttons = {
+          <>
+            <TabButton 
+              isSelected = {selectedTopic === 'Button1'} 
+              onClick = {() => handleSelect("Button1")}>
+                Meine Bildung
+            </TabButton>
+            <TabButton 
+              isSelected = {selectedTopic === 'Button2'} 
+              onClick = {() => handleSelect("Button2")}>
+                Programmiersprachen
+            </TabButton> 
+            <TabButton 
+              isSelected = {selectedTopic === 'Button3'} 
+              onClick = {() => handleSelect("Button3")}>
+                Meine Hobbys
+            </TabButton> 
+            <TabButton 
+              isSelected = {selectedTopic === 'Button4'} 
+              onClick = {() => handleSelect("Button4")}>
+                Meine Erfahrung
+            </TabButton>
+          </>
+        } 
+      />
       {tabContent}
     </Section>  
   );

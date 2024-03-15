@@ -16,3 +16,9 @@ menu {
   display: flex;
   justify-content: center;
 }
+
+body {
+  background-image: url('./assets/white-color-background.jpg');
+  background-size: cover;
+  background-position: center;
+}

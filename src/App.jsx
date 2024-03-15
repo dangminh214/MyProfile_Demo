@@ -5,13 +5,10 @@ import Profile from './components/Profile/Profile.jsx';
 import CoreConcepts from './components/CoreConcept/CoreConcepts.jsx';
 import Examples from './components/TabButton/Examples.jsx';
 
-
-
-
 export function App() {
-
   return (
     <>
+      <section id = "main">
         <Title />
         <Profile />
         <CoreConcepts />
@@ -27,8 +24,7 @@ export function App() {
             <CoreConcept {...core_concept[2]}/>
             <CoreConcept {...core_concept[3]}/>
             <CoreConcept {...core_concept[4]}/> */}
-    
-        
-      </>
+      </section>
+    </>
   );
 }
