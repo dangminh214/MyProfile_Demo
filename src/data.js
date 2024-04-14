@@ -12,7 +12,7 @@ export const CORE_CONCEPTS = [
   },
   {
     title: "Dann... Oberschule", 
-    description: "Ich bin auf Mathematik spezialisiert und an der Chu Van An Oberschule gelernt, (Chu Van Highschool for gifted Student) An der Oberschule habe ich viel Rubik selbst gelernt und spielen",
+    description: "Ich bin auf Mathematik spezialisiert und an der Chu Van An Oberschule gelernt, (Chu Van Highschool for gifted Student) An der Oberschule habe ich viel Rubik selbst gelernt und gesplielt",
     image: componentImg2
   },
   {
