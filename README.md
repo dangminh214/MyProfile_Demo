@@ -80,6 +80,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ![image](https://github.com/dangminh214/MyProfile_Demo/assets/51837721/c06d9f96-adc8-4db9-bc28-24efec13da79)
 ![image](https://github.com/dangminh214/MyProfile_Demo/assets/51837721/9f0388fc-af59-4eb4-b17a-836c5d73e587)
 
+## Update to a complete Profile
+### Set default value to a prop and dynamically use a prop as a container
+![image](https://github.com/dangminh214/MyProfile_Demo/assets/51837721/0e8fadee-48b1-48b5-a25e-6ad8a77cb0d1)
+### Add Background to whole html: 
+![image](https://github.com/dangminh214/MyProfile_Demo/assets/51837721/af543cb3-d389-45c8-b020-9ca1d5a3e2af)
+
+
+
 
 
 
