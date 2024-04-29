@@ -12,7 +12,7 @@ export default function Examples() {
         setSelectedTopic(selectedButton)
       }
     
-      let tabContent = <h2 id = "warningMessage">Please click a Button to understand me 😁</h2>;
+      let tabContent = <h2 id = "warningMessage">Klicken Sie ein Button um meine weitere Informationen zu wissen 😁</h2>;
       if (selectedTopic) {
         tabContent = (
           <div id="tab-content">
@@ -25,7 +25,7 @@ export default function Examples() {
         ) 
       }
   return (
-    <Section title="Some more details about me" id = "title" className = "">
+    <Section title="Meine weitere Informationen" id = "title" className = "">
       <Tabs
         buttonsContainer = "menu"
         buttons = {
